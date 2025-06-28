@@ -788,7 +788,7 @@ class KeypadController:
     
 
     def start_ai_interaction(self):
-    """Start AI interaction when D key is pressed"""
+        """Start AI interaction when D key is pressed"""
     try:
         if self.ai_active:
             print("🤖 AI conversation already active")
